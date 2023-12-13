@@ -1,0 +1,63 @@
+.formulario {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.form_formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.form_formulario input {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.form_formulario input[type="submit"],
+button {
+  font-size: 16px;
+  padding: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: #fa4529;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.micaja {
+  border: 3px solid black;
+  padding: 10px;
+  margin: 15px;
+}
+
+.fondoverde {
+  background: green;
+  color: white;
+}
+
+.example {
+  width: 33%;
+  border: 1px solid black;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario p {
+  width: 80%;
+}
+.example p {
+  width: 80%;
+}
