@@ -1,0 +1,122 @@
+.usememo {
+  border: 1px solid black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+}
+.usememo h1 {
+  font-weight: bold;
+  margin: 15px;
+  text-decoration: underline;
+}
+
+.componentes_usememo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.gestion {
+  border: 1px solid black;
+  width: 40%;
+  margin: 5px;
+  padding: 5px;
+}
+.gestion h2 {
+  font-size: 2em;
+}
+.gestion h3 {
+  font-size: 1.7em;
+}
+.gestion p {
+  font-size: 1em;
+}
+
+.gestion input {
+  text-align: center;
+  font-size: 18px;
+  background: #f9f9f9;
+  color: blue;
+  border: 3px solid black;
+  padding: 20px;
+  width: 70%;
+}
+
+/* ------------ */
+
+.boton_verde {
+  --color: #00a97f;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: 0.3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  margin: 5px;
+}
+
+.boton_verde::before,
+.boton_verde::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.boton_verde::before {
+  top: -1em;
+  left: -1em;
+}
+
+.boton_verde::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.boton_verde:hover::before,
+.boton_verde:hover::after {
+  height: 410px;
+  width: 410px;
+}
+
+.boton_verde:hover {
+  color: rgb(10, 25, 30);
+}
+
+.boton_verde:active {
+  filter: brightness(0.8);
+}
+
+/* -------------- */
+
+.tarea {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+}
+.tarea h2 {
+  font-size: 1.7em;
+  width: 70%;
+}
+
+.input_tarea {
+  background: #f9f9f9;
+  border: 3px solid black;
+  padding: 20px;
+  width: 50%;
+}
