@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import EjemploComponent from "./EjemploComponent";
+import "./useEffect.css";
 
 const UseEffeect = () => {
   return (
     <div>
-      <h1>UseEffeect</h1>
+      <EjemploComponent />
     </div>
   );
-}
+};
 
-export default UseEffeect
+export default UseEffeect;

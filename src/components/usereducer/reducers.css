@@ -1,0 +1,111 @@
+.formulario_reducers {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.formulario_reducers textarea {
+  border: 1px solid black;
+}
+
+.input-wrapper input {
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: lightcoral;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.input-wrapper input:focus {
+  outline-color: lightcoral;
+}
+
+.btn {
+  width: 6.5em;
+  height: 2.3em;
+  margin: 0.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+button:hover {
+  color: black;
+}
+
+button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* quiero que .listado tenga 3 columnas, titulo, descripcion y el boton de borrar */
+.listado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filas {
+  display: flex;
+  align-items: baseline;
+}
+
+.filas button {
+  margin: 5px;
+}
+
+.editar {
+  border: 1px solid black;
+}
+.juegos {
+  /* alinear todo al centro, no el texto */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.explicaciones {
+  /* 90% del ancho de pantalla */
+  width: 90%;
+}
+
+/* enumerar los li de un ul */
+.ul_explicaciones li::before {
+  content: "• ";
+}
+
+.ul_sublista {
+  list-style-type: decimal;
+  margin-left: 40px;
+}

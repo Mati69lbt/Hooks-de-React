@@ -65,7 +65,7 @@ function App() {
             <option value="select">Elige un Hook</option>
             <option value="useRef">useRef</option>
             <option value="useMemo">useMemo</option>
-            <option value="useEffect">useEffect</option>
+            <option value="useEffect">useEffect/useLayoutEffect</option>
             <option value="useReducer">useReducer</option>
             <option value="useContext">useContext</option>
             <option value="useId">useId</option>
