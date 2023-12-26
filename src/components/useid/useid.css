@@ -1,0 +1,14 @@
+.useID {
+  margin: 30px;
+}
+
+.useID h1 {
+  font-size: 60px;
+}
+
+.useID input {
+  border: 1px solid black;
+
+  padding: 5px;
+  width: 280px;
+}
