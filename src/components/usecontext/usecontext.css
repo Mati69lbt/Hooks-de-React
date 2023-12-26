@@ -1,0 +1,63 @@
+.header_useContext {
+  margin: 10px;
+}
+
+.body_usecontext {
+  background: #eee;
+}
+
+.header_useContext nav {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.header_useContext ul {
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+}
+
+.header_useContext nav a {
+  color: lightblue;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header_useContext nav a:hover {
+  color: blue;
+}
+
+.content_useContext {
+  width: 70%;
+  min-height: 350px;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid gray;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.login input {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.login_nav {
+  display: flex;
+}
+
+.inicio_useContext h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.inicio_useContext ul {
+  list-style-type: decimal;
+}

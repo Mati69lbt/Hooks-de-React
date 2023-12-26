@@ -11,6 +11,12 @@ import UseContext from "./components/usecontext/UseContext.jsx";
 import UseId from "./components/useid/UseId.jsx";
 import Personalizados from "./components/personalizados/Personalizados.jsx";
 
+import Inicio from "./components/usecontext/componentes_useContext/Inicio.jsx";
+import Acerca from "./components/usecontext/componentes_useContext/Acerca.jsx";
+import Articulos from "./components/usecontext/componentes_useContext/Articulos.jsx";
+import Contact from "./components/usecontext/componentes_useContext/Contact.jsx";
+import Login from "./components/usecontext/componentes_useContext/Login.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +41,29 @@ const router = createBrowserRouter([
       {
         path: "/useContext",
         element: <UseContext />,
+        children: [
+          { path: "inicio", index: true, element: <Inicio /> },
+          {
+            path: "acerca",
+            element: <Acerca />,
+          },
+          {
+            path: "login",
+            element: <Login />,
+          },
+          {
+            path: "articulos",
+            element: <Articulos />,
+          },
+          {
+            path: "contactos",
+            element: <Contact />,
+          },
+          {
+            path: "*",
+            element: <div>Error de página</div>,
+          },
+        ],
       },
       {
         path: "/useId",

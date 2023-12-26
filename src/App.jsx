@@ -18,7 +18,7 @@ function App() {
         navigate("/useReducer");
         break;
       case "useContext":
-        navigate("/useContext");
+        navigate("/useContext/inicio");
         break;
       case "useId":
         navigate("/useId");
@@ -36,7 +36,6 @@ function App() {
     <div>
       <div className="navbar_inicio">
         <h1>Hooks de React</h1>
-        {/* <select className="select_hooks" onChange={(e) => seleccionador(e)}> */}
 
         <div className="relative group rounded-lg w-64 bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]">
           <svg
@@ -80,27 +79,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <option value="ref">
-          <NavLink to="useref">useRef</NavLink>
-        </option>
-        <option value="memo">
-          <NavLink to="usememo">useMemo</NavLink>
-        </option>
-        <option value="effect">
-          <NavLink to="useeffect">useEffect</NavLink>
-        </option>
-        <option value="reducer">
-          <NavLink to="usereducer">useReducer</NavLink>
-        </option>
-        <option value="context">
-          <NavLink to="usecontext">useContext</NavLink>
-        </option>
-        <option value="id">
-          <NavLink to="useid">useId</NavLink>
-        </option>
-        <option value="perso">
-          <NavLink to="personalizados">Pesonalizados</NavLink>
-        </option> */
-}
