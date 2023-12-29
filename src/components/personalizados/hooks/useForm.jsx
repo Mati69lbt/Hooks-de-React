@@ -9,7 +9,6 @@ const useForm = (obejtoInicial = {}) => {
     for (let [name, value] of formData) {
       objetoCompleto[name] = value;
     }
-
     return objetoCompleto;
   };
 

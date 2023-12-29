@@ -22,12 +22,14 @@ const Personalizados = () => {
       <button onClick={mayusculas}>Poner en Mayuscula</button>
       <button onClick={minusculas}>Poner en Minuscula</button>
       <button onClick={camello}>Poner en Camello</button>
-      <button onClick={(e) => concatenar(", 25 años")}>concatenar</button>
+      <button onClick={(e) => concatenar(", 25 años")}>Concatenar</button>
       <br />
-      <p>
-        Lo que se hizo aqui fue hacer una funcion por fuera, useMayus, que nos
-        devuelve la duncion que cumple cada boton
-      </p>
+      <ul>
+        <li>
+          Lo que se hizo aqui fue hacer una funcion por fuera, useMayus, que nos
+          devuelve la Funcion que cumple cada boton
+        </li>
+      </ul>
       <hr />
       <MiFormulario />
       <MiUsuario />

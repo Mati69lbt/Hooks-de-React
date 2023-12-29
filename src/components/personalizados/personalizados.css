@@ -53,3 +53,45 @@ textarea {
   height: 10px; /* Specifying a fixed height for the sliders in CSS */
   background: #ddd3; /* Gray background */
 }
+
+.hojaDeFormulario ul li {
+  font-size: 20px;
+
+  list-style: inside;
+}
+
+.personalizados ul li {
+  font-size: 20px;
+  margin-right: 50px;
+  list-style: inside;
+}
+
+.miUsuario ul li {
+  text-indent: 0px;
+}
+
+.sublista {
+  list-style-type: square; /* Cambia el tipo de viñeta si lo deseas */
+  margin-left: 20px;
+}
+
+.sublista li {
+  margin-bottom: 8px;
+}
+
+.preuno {
+  margin-left: -140px; /* Ajustar el margen según sea necesario */
+  padding: 8px;
+  margin-top: -60px;
+  margin-bottom: -50px;
+}
+
+.resaltado {
+  color: red; /* Cambia el color según tus preferencias */
+  font-weight: bold; /* Otras propiedades de estilo si lo deseas */
+}
+
+.preult {
+  margin-left: -100px;
+  margin-top: -20px;
+}
