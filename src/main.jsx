@@ -16,12 +16,18 @@ import Acerca from "./components/usecontext/componentes_useContext/Acerca.jsx";
 import Articulos from "./components/usecontext/componentes_useContext/Articulos.jsx";
 import Contact from "./components/usecontext/componentes_useContext/Contact.jsx";
 import Login from "./components/usecontext/componentes_useContext/Login.jsx";
+import LandingPage from "./LandingPage.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/",
+        index: true,
+        element: <LandingPage />,
+      },
       {
         path: "/useRef",
         element: <UseRef />,

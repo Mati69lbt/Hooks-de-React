@@ -95,3 +95,39 @@ textarea {
   margin-left: -100px;
   margin-top: -20px;
 }
+
+@media screen and (max-width: 768px) {
+  .personalizados h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .personalizados button {
+    /* todos del mismo tamaño */
+    width: 90%;
+    height: auto;
+    font-size: 1em;
+  }
+  .hojaDeFormulario * {
+    width: 100%;
+  }
+  .miformulario input {
+    width: 100%;
+  }
+  .primer_ul {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+  }
+  .sublista li pre {
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+  .preuno {
+    width: 100%;
+    white-space: pre-wrap;
+    margin: -30px;
+  }
+  .miUsuario ul li {
+    font-size: 18px;
+  }
+}

@@ -32,3 +32,11 @@ h1 {
   border: 1px solid black;
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  .useRef {
+    flex-direction: column;
+  }
+  .titulo_useref {
+    width: 100%;
+  }
+}

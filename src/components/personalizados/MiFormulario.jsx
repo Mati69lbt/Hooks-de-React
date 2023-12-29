@@ -48,7 +48,7 @@ const MiFormulario = () => {
         />
         <input type="submit" value="Enviar" />
       </form>
-      <ul>
+      <ul className="primer_ul">
         <li>
           Se Creo un Hook Personalizado para que se adapte a cualquier
           formulario, ya sea chico o grande
@@ -57,9 +57,10 @@ const MiFormulario = () => {
           UseForm:
           <ul className="sublista">
             <li>
-              <pre className="preuno">{`
-              const [formulario, setFormulario] = useState(obejtoInicial = {});
-              `}</pre>
+              <pre className="preuno">
+                {`    const [formulario, setFormulario] = useState(obejtoInicial = {});
+                `}
+              </pre>
               <pre>
                 {`
     const `}
@@ -76,7 +77,6 @@ const MiFormulario = () => {
     };
   `}
               </pre>
-              <br />
               <pre>
                 {`const `}
                 <span style={{ color: "blue", textDecoration: "underline" }}>
@@ -101,7 +101,6 @@ const MiFormulario = () => {
     setFormulario(curso);
   };`}{" "}
               </pre>
-              <br />
               <pre>
                 {`const `}
                 <span style={{ color: "green", textDecoration: "underline" }}>

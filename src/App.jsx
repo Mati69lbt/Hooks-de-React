@@ -5,6 +5,9 @@ function App() {
   const navigate = useNavigate();
   const seleccionador = (e) => {
     switch (e.target.value) {
+      case "select":
+        navigate("/");
+        break;
       case "useRef":
         navigate("/useRef");
         break;

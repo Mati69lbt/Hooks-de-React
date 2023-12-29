@@ -113,7 +113,7 @@ const Misjuegos = () => {
         })}
       </ul>
 
-      <h3>Agregar Juegos</h3>
+      <h3 style={{ textDecoration: "underline" }}>Agregar Juegos</h3>
 
       <form
         ref={formRef}
@@ -130,8 +130,6 @@ const Misjuegos = () => {
           name="descripcion"
           id="descripcion"
           placeholder="Descripcion"
-          cols="5"
-          rows="5"
         />
 
         <input type="submit" value="guardar" className="btn" />

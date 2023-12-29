@@ -109,3 +109,32 @@ button:hover:after {
   list-style-type: decimal;
   margin-left: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .juegos {
+    width: 100%;
+  }
+  .juegos h1 {
+    font-size: 2em;
+  }
+  .listado {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    & > div {
+      max-width: calc(100vw - 30px);
+      margin: 10px;
+    }
+  }
+
+  .formulario_reducers {
+    width: 80%;
+    align-items: center;
+  }
+  .formulario_reducers input[type="text"] {
+    margin: 5px;
+  }
+  .formulario_reducers textarea {
+    width: 300px;
+    height: 100px;
+  }
+}

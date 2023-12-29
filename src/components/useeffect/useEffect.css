@@ -9,3 +9,9 @@
 .ejemplo {
   margin: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .ejemplo h1 {
+    font-size: 45px;
+  }
+}

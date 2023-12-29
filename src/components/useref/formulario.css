@@ -61,3 +61,10 @@ button {
 .example p {
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .formulario,
+  .example {
+    width: 100%;
+  }
+}

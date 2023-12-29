@@ -120,3 +120,15 @@
   padding: 20px;
   width: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .componentes_usememo {
+    flex-direction: column;
+  }
+  .gestion {
+    width: 95%;
+  }
+  .tarea {
+    width: 95%;
+  }
+}

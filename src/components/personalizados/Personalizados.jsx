@@ -23,7 +23,6 @@ const Personalizados = () => {
       <button onClick={minusculas}>Poner en Minuscula</button>
       <button onClick={camello}>Poner en Camello</button>
       <button onClick={(e) => concatenar(", 25 años")}>Concatenar</button>
-      <br />
       <ul>
         <li>
           Lo que se hizo aqui fue hacer una funcion por fuera, useMayus, que nos

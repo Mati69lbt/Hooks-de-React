@@ -22,7 +22,8 @@ const Inicio = () => {
         </li>
         <li>
           Envolver el componente con el useContext creado y un Provider: <br />
-          <pre>{` <PruebaContext.Provider
+          <pre>
+            {` <PruebaContext.Provider
           value={{
             mensaje: "Matias Daniel Delgado, Marcos Juarez, CBA.",
             curso,
@@ -31,7 +32,8 @@ const Inicio = () => {
           }}
         >
           <Outlet />
-        </PruebaContext.Provider>`}</pre>
+        </PruebaContext.Provider>`}
+          </pre>
         </li>
         <li>
           Entonces ahora podemos usar toda la informacion desde cualquier

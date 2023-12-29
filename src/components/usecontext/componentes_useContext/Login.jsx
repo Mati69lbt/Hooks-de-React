@@ -24,8 +24,7 @@ const Login = () => {
     navigate("/useContext/inicio");
   };
   return (
-    <div>
-      {" "}
+    <div className="log">
       <h1>Usted esta en Login</h1>
       <form className="login" onSubmit={guardarDatos} ref={reiniciar}>
         <input type="text" name="nick" placeholder="Nickname" />

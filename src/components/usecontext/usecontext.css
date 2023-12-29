@@ -61,3 +61,38 @@
 .inicio_useContext ul {
   list-style-type: decimal;
 }
+
+@media screen and (max-width: 768px) {
+  .header_useContext {
+    display: flex;
+    flex-direction: column;
+  }
+  .header_useContext nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .header_useContext ul {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inicio_useContext h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .inicio_useContext h2 {
+    font-size: 30px;
+  }
+  .inicio_useContext ul li pre {
+    white-space: pre-wrap;
+  }
+  .login input {
+    width: 90%;
+  }
+  .log h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
