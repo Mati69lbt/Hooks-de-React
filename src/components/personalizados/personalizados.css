@@ -1,0 +1,55 @@
+.personalizados {
+  margin: 25px;
+}
+
+.personalizados input {
+  border: 1px solid black;
+  margin: 1px;
+  padding: 1px;
+}
+
+.personalizados button {
+  margin-right: 10px;
+}
+
+.personalizados hr {
+  border: 2px solid black;
+}
+
+.miformulario input,
+textarea {
+  display: block;
+  width: 40%;
+  max-width: 40%;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.miformulario input[type="submit"] {
+  width: 30%;
+  cursor: pointer;
+
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+}
+.miformulario input[type="submit"]:hover {
+  background-color: rgb(87, 189, 44);
+}
+
+.codigo {
+  font-size: 12px;
+}
+
+.rango {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rango input[type="range"] {
+  width: 60%; /* Specific width for each slide range! */
+  height: 10px; /* Specifying a fixed height for the sliders in CSS */
+  background: #ddd3; /* Gray background */
+}
