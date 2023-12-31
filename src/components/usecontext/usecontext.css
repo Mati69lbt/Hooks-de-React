@@ -1,5 +1,5 @@
 .header_useContext {
-  margin: 10px;
+  margin: 5px;
 }
 
 .body_usecontext {
@@ -33,7 +33,7 @@
 }
 
 .content_useContext {
-  width: 70%;
+  width: 90%;
   min-height: 350px;
   background: white;
   border-radius: 15px;
@@ -94,5 +94,10 @@
   .log h1 {
     font-size: 40px;
     font-weight: bold;
+  }
+  .json {
+    white-space: pre-wrap;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 }

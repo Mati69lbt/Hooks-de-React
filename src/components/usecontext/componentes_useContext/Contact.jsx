@@ -9,7 +9,7 @@ const Contact = () => {
       <h1>Usted esta en Contactos</h1>
       <p>Pagina de contacto</p>
       <p>{datoDesdeElContexto.mensaje}</p>
-      <p>{JSON.stringify(datoDesdeElContexto.usuario)}</p>
+      <pre className="json">{JSON.stringify(datoDesdeElContexto.usuario)}</pre>
       <p></p>
     </div>
   );
